@@ -48,6 +48,13 @@ a:hover {
 	border-bottom: 4px solid;
 }
 
+.white-link {
+	color: #fff;
+}
+
+.white-link:hover {
+	color: #2d2d2d;
+}
 
 .spl-logo {
 	position: absolute;
@@ -110,13 +117,8 @@ a:hover {
 	background-color: #0069b4;
 	color: #fff;
 }
-/*
-.page__section:nth-of-type(5) {
-	background-color: #f3f5f7;
-}*/
 
 .page__section:nth-of-type(6) {
-	// background-color: #e7e7e7;
 	background-color: #e80023;
 	color: #fff;
 }
@@ -142,11 +144,15 @@ a:hover {
 }
 
 .page__content {
-  max-width: 700px;
-	width: 100%;
 	font-size: 18px;
 	margin: 0 0 30px;
 	padding: 0;
+}
+
+.page__container
+.page__content {
+  max-width: 700px;
+	width: 100%;
 }
 
 .page__content + .page__title {
@@ -189,7 +195,6 @@ a:hover {
 	}
 
 }
-
 
 @media (min-height: 850px) {
 
