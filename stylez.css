@@ -88,6 +88,29 @@ a:hover {
 	height: 100%;
 }
 
+.scroll-indicator {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+}
+
+.scroll-indicator span,
+.scroll-indicator svg {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.scroll-indicator span {
+	line-height: 30px;
+	font-size: 24px;
+	margin-right: 10px;
+}
+
+.scroll-indicator svg {
+	height: 30px;
+	width: 30px;
+}
+
 /* General page section styling
 ============================================================ */
 
@@ -178,6 +201,11 @@ a:hover {
 	  padding: 60px 30px;
 	}
 
+	.ie11 .page__container {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
 	.page__title {
 		font-size: 40px;
 		font-weight: 900;
@@ -216,11 +244,17 @@ a:hover {
 
 .head__headline {
 	max-width: 700px;
-	font-size: 40px;
+	font-size: 36px;
 	line-height: .85;
 	margin-top: 0;
 	margin-bottom: 20px;
 	letter-spacing: -1px;
+	text-align: center;
+}
+
+.head__container {
+	padding-right: 0;
+	padding-left: 0;
 }
 
 @media (min-width: 500px) {
